@@ -7,15 +7,31 @@
   </head>
   <body>
 	
-	  <h2>Computer Choice: <span id="computer-choice"></span></h2>
-	  <h2>Your Choice: <span id="user-choice"></span></h2>
-	  <h2>Result: <span id="result"></span></h2>
-	  
-	  <button id="rock">rock</button>
-	  <button id="paper">paper</button>
-	  <button id="scissors">scissors</button>
-	  <!-- tutorial says:Add class="button" if you will add additional buttons to avoid conflicts -->
-	  
+	  <h1>rock paper scissors</h1>
+	  <div class="container">
+	    <div id="player-1">
+	      <h2>Player: </h2>
+		  <h2><span id="user-choice"></span></h2>
+		</div>
+		
+		<h2>VS</h2>
+		
+		<div id="player-2">
+		  <h2>Computer: </h2>
+		  <h2><span id="computer-choice"></span></h2>
+		</div>
+		
+		<div id="outcome">
+	      <h2>Result: <span id="result"></span></h2>
+		</div>
+	    
+		<div id="choices">
+	      <button id="rock" class="button">rock</button>
+	      <button id="paper" class="button">paper</button>
+	      <button id="scissors" class="button">scissors</button>
+	      <!-- tutorial says:Add class="button" if you will add additional buttons to avoid conflicts -->
+		</div>
+	  </div>
 	
     <script src="app.js" charset="utf-8"></script> <!-- Always keep at the end/bottom part of the body -->
   </body>
